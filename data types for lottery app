@@ -1,0 +1,14 @@
+
+variables or state:
+manager - 
+    public
+    address type
+player array
+    public
+    Dynamic array type
+
+function:
+enter()
+    payable
+pickWinner()
+    public

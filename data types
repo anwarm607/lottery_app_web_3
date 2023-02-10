@@ -1,0 +1,37 @@
+Basic types:
+string
+bool
+int
+uint
+address
+
+
+
+
+
+
+Reference type:
+Fixed array - unchanging length and single type - int[3] -> [0, 1,2]
+                                                - bool[2] -> [true, false]
+Dynamic array - single type but change in length -> int[] -> [1,2,3,4,5]
+mapping - collection of key value pair like object in JS but same type -> 
+        mapping(string => string), mapping(int => bool)
+
+struct - same like mapping but can be different types -> 
+        struct Car {
+            string make;
+            int modelNumber;
+            bool isAvailable;
+            string color;
+        }
+
+
+
+Common function types:
+public - anyone can call this fn
+private - only contract can call
+view - can return data but does not modify the contract
+constant - same as view
+pure - can't read and modify the data of contract
+payable - the user might pay for calling this fn.
+
